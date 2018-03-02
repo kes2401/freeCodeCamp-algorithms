@@ -6,7 +6,7 @@ function titleCase(str) {
   var lowerCaseTitle = str.toLowerCase();
   var wordsArray = lowerCaseTitle.split(" ");
   
- for(var i = 0; i < wordsArray.length; i++){
+  for(var i = 0; i < wordsArray.length; i++){
     wordsArray[i] = wordsArray[i].charAt(0).toUpperCase() + wordsArray[i].substr(1);   
   }
   
