@@ -35,4 +35,3 @@ function translatePigLatin(str) {
 }
 
 translatePigLatin("consonant");
-Close this solution.
